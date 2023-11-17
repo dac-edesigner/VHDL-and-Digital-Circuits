@@ -136,7 +136,8 @@ Estos procesos son equivalentes a las instrucciones anteriormente mencionadas. �
 
 Tras simular el circuito obtenemos los resultados mostrados en la Figura 2. En esta Figura podemos ver que en los instantes iniciales tanto la salida *S_out* como los valores de la señal auxiliar presentan un valur *'U'*, es decir indeterminado. Esto se debe a que ni en la descripción, ni en el ***Test Bench*** hemos inicializado estos valores.
 
-También vemos que nada más que se activa la señal de clear (*clr*) tanto los valores de la señal auxiliar (*aux*) como los valores de la salida *S_out* valen *'0'*, es decir, se inicializan en *'0'*
+También vemos que nada más que se activa la señal de clear (*clr*) tanto los valores de la señal auxiliar (*aux*) como los valores de la salida *S_out* valen *'0'*, es decir, se inicializan en *'0'*.
+
 ![Figura 2.](Images/Registers/Imagen2-ShiftR.png)
 
 Finalmente, la Figura 3 muestra el ejecto del desplazamiento, el cual se ve claramente reflejado en la señal auxiliar.
