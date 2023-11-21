@@ -5,9 +5,9 @@ El registro de desplazamiento descrito es un registro con entrada serie, salida 
 
 ![Figura 1.](Images/Registers/Imagen1-ShiftR.png)
 
-El componente tiene una entrada de borrado (clr) activa en nivel bajo. Siendo esta entrada de asíncrona, es decir, el registro de desplazamiento se borrara inmediatamente cuando se aplique el nivel activo en esta entrada.
+El componente tiene una entrada de borrado (clr) activa en nivel bajo. Siendo esta entrada de asíncrona, es decir, el registro de desplazamiento se borrará inmediatamente cuando se aplique el nivel activo en esta entrada.
 
-La código VHDL de la descripción del registro de desplazamiento es el siguiente:
+El código VHDL de la descripción del registro de desplazamiento es el siguiente:
 
 ```VHDL
 library IEEE;
@@ -112,7 +112,7 @@ end architecture Behavioral;
 
 Si nos fijamos en la descripción de los estimulos para el registro de desplazamiento, implementación difiere a la realizada para el resto de componentes descritos hasta el momento.
 
-Además, se han dejado las instrucciones ***clk <= NOT clk AFTER 2 ns;*** y ***S_in <= NOT S_in AFTER 13 ns;*** comentadas ya que pueden utilizarse para la declaración de los estimulos de reloj y de la señal de entrada serie, respectivamente. Pueden utilizarse y funcionan de la misma manera que los procesos descritos en el siguiente bloque de código:
+Además, se han dejado comentadas las instrucciones ***clk <= NOT clk AFTER 2 ns;*** y ***S_in <= NOT S_in AFTER 13 ns;***  ya que pueden utilizarse para la declaración de los estimulos de reloj y de la señal de entrada serie, respectivamente. Pueden utilizarse y funcionan de la misma manera que los procesos descritos en el siguiente bloque de código:
 
 ```VHDL
 S_in_process: process
@@ -137,7 +137,6 @@ Estos procesos son equivalentes a las instrucciones anteriormente mencionadas. �
 Tras simular el circuito obtenemos los resultados mostrados en la Figura 2. En esta Figura podemos ver que en los instantes iniciales tanto la salida *S_out* como los valores de la señal auxiliar presentan un valur *'U'*, es decir indeterminado. Esto se debe a que ni en la descripción, ni en el ***Test Bench*** hemos inicializado estos valores.
 
 También vemos que nada más que se activa la señal de clear (*clr*) tanto los valores de la señal auxiliar (*aux*) como los valores de la salida *S_out* valen *'0'*, es decir, se inicializan en *'0'*.
-
 ![Figura 2.](Images/Registers/Imagen2-ShiftR.png)
 
 Finalmente, la Figura 3 muestra el ejecto del desplazamiento, el cual se ve claramente reflejado en la señal auxiliar.

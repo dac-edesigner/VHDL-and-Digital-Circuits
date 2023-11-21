@@ -6,11 +6,9 @@ El contador módulo 256 de la Figura 1 cuenta valores desde 0 hasta 255.
 ![Figura 1.](Images/Counters/Imagen1-counter.png)
 
 
-Como se puede ver en la Figura el contador tiene una señal de reset que permite borrar la cuenta, es decir, llevar al contador a un estado en el que todos los valores de sus salidas valen *'0'*.
+Como se puede ver en la Figura el contador tiene una señal de reset que permite borrar la cuenta, es decir, llevar al contador a un estado en el que todos los valores de sus salidas son *'0'*.
 
-La código VHDL de la descripción del contador se encuentra a continuación.
-
-La solución propuesta solo es una de las múltiples formas que hay describir un contador, todas ellas igualmente validas y consiguiendo que el componente descrito lo haga de la forma correcta. Se puede decir que existen tantas soluciones diferentes como programadores.
+La solución propuesta solo es una de las múltiples formas que hay describir un contador, todas ellas igualmente validas y consiguiendo que el componente descrito lo haga de la forma correcta. Se puede decir que existen tantas soluciones diferentes como programadores. El código VHDL de la descripción del contador se encuentra a continuación.
 
 ```VHDL
 library IEEE;
@@ -88,6 +86,6 @@ end Behavioral;
 Las siguientes Figuras 2 muestra la evulución temporal de las salidas. En concreto esta imagen trata de recoger el efecto asíncrono de la señal de *reset (rst)*. Se observa en la figura que en el instante en el que valor de la señal rst pasa a *'0'* todas las salidas del contador valen *'0'*. Se reinicia la cuenta.
 ![Figura 2.](Images/Counters/Imagen2-counter.png)
 
-Mientras que la Figura 3 muestra el reinicio de la cuenta cuando el contador llega a 255. Ambas capturas muestran tanto la salida correspondiente al puerto del componente definido como *count*, como la señal interna de cuenta *count_up* que se utiliza para la realimentación del contaje.
+Mientras que la Figura 3 muestra el reinicio de la cuenta cuando el contador llega a 255. Ambas capturas muestran tanto la salida correspondiente al puerto del componente ( definido como *count*), como la señal interna de cuenta (*count_up*) que se utiliza para la realimentación del contaje.
 ![Figura 3.](Images/Counters/Imagen3-counter.png)
 &copy; Diego Antolín Cañada
