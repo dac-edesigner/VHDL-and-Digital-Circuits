@@ -1,5 +1,5 @@
 # VHDL-and-Digital-Circuits
-This repository has information about Digital Hardware Description in VHDL, Test Bench and Digital Electrónic.
+This repository has information about Digital Hardware Description in VHDL, Test Bench and Digital Electronic.
 
 Este documento pretende mostrar la descripción VHDL de elementos secuenciales, es decir, síncronos. Así como la posibilidad de describir un circuito digital de maneras diferenes.
 
