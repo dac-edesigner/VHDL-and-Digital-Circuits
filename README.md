@@ -7,6 +7,4 @@ En esta documentación vamos a encontrar la descripción de un [biestable RS](/B
 
 Cada uno de los diferentes documentos contiene el símbolo y la descripción de comportamiento del correspondiente componente.
 
-Probando a insertar video de youtube:[![Instalacion Vivado ML Standar](https://img.youtube.com/vi/G_Z4rQFMujc/0.jpg)](https://www.youtube.com/watch?v=G_Z4rQFMujc)
-
 &copy; Diego Antolín Cañada
