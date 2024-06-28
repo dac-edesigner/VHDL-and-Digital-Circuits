@@ -7,6 +7,6 @@ En esta documentación vamos a encontrar la descripción de un [biestable RS](/B
 
 Cada uno de los diferentes documentos contiene el símbolo y la descripción de comportamiento del correspondiente componente.
 
-Probando a insertar video de youtube: <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/s1O9ohSR9zk?si=0NTJb3WH1Wvowasf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+Probando a insertar video de youtube:[![Alt text](https://img.youtube.com/vi/configuroweb/0.jpg)]([https://www.youtube.com/watch?v=configuroweb](https://youtu.be/s1O9ohSR9zk)) 
 
 &copy; Diego Antolín Cañada
