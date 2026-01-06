@@ -7,4 +7,5 @@ En esta documentación vamos a encontrar la descripción de un [biestable RS](/B
 
 Cada uno de los diferentes documentos contiene el símbolo y la descripción de comportamiento del correspondiente componente.
 
-[![License: CC BY-SA 4.0](https://licensebuttons.net/l/by-sa/4.0/80x15.png)](https://creativecommons.org/licenses/by-sa/4.0/)
+Diego Antolín Cañada
+[![License: CC BY-SA 4.0](https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
